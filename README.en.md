@@ -438,7 +438,6 @@ Then restart Codex or Claude Code and try again.
 - The installer copies the `.agents` Skill into both Codex and Claude Code user locations, so both copies should stay equivalent.
 - If you add short command routing, update `references/SHORT_INVOCATIONS.md` as well.
 - Put new templates under `assets/templates/`.
-- If you publish this project on GitHub, keep `CHANGELOG.md` and add an appropriate `LICENSE` file.
 
 ---
 
@@ -451,7 +450,8 @@ Then restart Codex or Claude Code and try again.
 
 ---
 
-## License
+## License / 许可证
 
-No license is included by default. Before publishing on GitHub, add a `LICENSE` file that matches how you want others to use the project.
+This project is released under the MIT License. See [LICENSE](./LICENSE) for details.
 
+本项目基于 MIT License 开源，详情见 [LICENSE](./LICENSE)。
