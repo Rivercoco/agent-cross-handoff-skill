@@ -17,7 +17,7 @@
 
 `agent-cross-handoff` 是一个用于 AI 编程 Agent 的项目交接 Skill。
 
-它不搬运登录态、不复制私有聊天记录，也不打包缓存。它做的是更适合长期维护的事：把一个正在开发的 Git 项目整理成另一台电脑、另一个系统、另一个 Agent 可以接手的状态。
+本项目可以将项目打包成另一台电脑、另一个系统、另一个 Agent 可以接手的状态。
 
 适合这些场景：
 
@@ -57,7 +57,8 @@
 解压后进入目录：
 
 ```bash
-cd /path/to/agent-cross-handoff-skill
+git clone https://github.com/Rivercoco/agent-cross-handoff-skill.git
+cd agent-cross-handoff-skill
 ```
 
 macOS / Linux：
@@ -153,7 +154,8 @@ docs/
 ### macOS / Linux
 
 ```bash
-cd /path/to/agent-cross-handoff-skill
+git clone https://github.com/Rivercoco/agent-cross-handoff-skill.git
+cd agent-cross-handoff-skill
 bash install.sh
 ```
 

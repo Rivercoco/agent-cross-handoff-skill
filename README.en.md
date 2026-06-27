@@ -17,7 +17,7 @@
 
 `agent-cross-handoff` is a project handoff Skill for AI coding agents.
 
-It does not move login state, private chat history, or caches. It does something more durable: it turns an in-progress Git project into a state that another machine, another operating system, or another agent can continue safely.
+This project can be packaged into a state that can be taken over by another computer, another system, or another agent.
 
 It is useful when you need to:
 
@@ -57,7 +57,8 @@ The rule is simple: **code lives in Git, project rules live in `AGENTS.md`, the 
 After extracting the package, enter the directory:
 
 ```bash
-cd /path/to/agent-cross-handoff-skill
+git clone https://github.com/Rivercoco/agent-cross-handoff-skill.git
+cd agent-cross-handoff-skill
 ```
 
 macOS / Linux:
@@ -153,7 +154,8 @@ When taking over a project, the Skill reads these documents first, checks the de
 ### macOS / Linux
 
 ```bash
-cd /path/to/agent-cross-handoff-skill
+git clone https://github.com/Rivercoco/agent-cross-handoff-skill.git
+cd agent-cross-handoff-skill
 bash install.sh
 ```
 
